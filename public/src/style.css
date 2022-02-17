@@ -1,0 +1,96 @@
+
+@import url('http://fonts.googleapis.com/css2?family=Poppins');
+ *{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body , html{
+overflow-x: hidden;
+
+}
+header{
+width: 100vw;
+height: 100vh;
+background-image: url("/public/assets/background.png");
+background-position: bottom;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.header-content{
+margin-bottom: 150px;
+color: whitesmoke;
+text-align: center;
+}
+
+.header-content h2{
+font-size: 4vmin
+}
+
+.line{
+width:150px;
+height:4px;
+background: coral;
+margin:10px auto;
+border-radius: 5px;
+}
+
+.header-content h1{
+font-size: 7vmin;
+margin-top: 50px;
+margin-bottom: 30px;
+}
+
+section{
+width:80%;
+margin: 80px auto;
+}
+
+.title{
+text-align: center;
+font-size: 4vmin;
+color: #860111;
+}
+
+.row{
+display:flex;
+align-items:center;
+width: 100%;
+justify-content:space-between;
+}
+
+.row .col{
+display:flex;
+flex-direction:column;
+align-items: center;
+}
+
+.bio .row{
+margin:50px;
+}
+
+p{
+color: #343434;
+padding: 0px 40px;
+font-family: 'Brush Script MT', cursive;
+font-size: 3.5vmin;
+}
+
+
+.footer{
+width: 100%;
+min-height: 100%;
+padding: 20px;
+margin: o;
+background-color: #860111;
+text-align: center;
+}
+
+.footer p{
+color: whitesmoke;
+margin: 20px auto;
+font-size: 3vmin;
+}
