@@ -12,7 +12,7 @@ overflow-x: hidden;
 header{
 width: 100vw;
 height: 100vh;
-background-image: url("/public/assets/background.png");
+background-image: url("../assets/background.png");
 background-position: bottom;
 background-size: cover;
 display: flex;
@@ -84,7 +84,7 @@ font-size: 3.5vmin;
 width: 100%;
 min-height: 100%;
 padding: 20px;
-margin: o;
+margin: 0px;
 background-color: #860111;
 text-align: center;
 }
